@@ -1,0 +1,7 @@
+int personRunningSpeedKmHour;
+byte personRunningSpeedKmHour; // better because a person can not have
+// more than 127 km/h as speed
+
+int birthYear;  
+short birthYear; 
+// short takes less memory space but in this case int is more readable.
